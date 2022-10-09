@@ -5,7 +5,7 @@ Also includes Postman Collection for testing**
 
 Implemented the two requiered APIs :
 
-#/create-invoice
+# /create-invoice
 This API takes a customerId,EmployeeId,Date createdAt,boolean isPaid,List of invoiceItems (every invoiceItem contains itemID , quantity) **in JSON format as a request body**
 Json example :
 
@@ -54,7 +54,7 @@ If create invoice was succeful the API return a JSON with some extra information
 
 If any of these does not exist in the database this API will return 404 with a text describes the problem.
 
-#/report
+# /report
 This API takes three request parameters as follows :
 - employeeId
 - startDate
